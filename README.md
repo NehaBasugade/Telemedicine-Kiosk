@@ -52,7 +52,7 @@ This project is for educational/research purposes only and is **not** a substitu
 
 ## How to Use:-
 
-✅ Install Ollama  
+Install Ollama  
 
 1) Run the model:  
 `ollama run llama3.1`
@@ -65,7 +65,7 @@ This project is for educational/research purposes only and is **not** a substitu
 
 ---
 
-✅ Set up and run the project  
+Set up and run the project  
 
 4) Navigate to the HAI folder:  
 `cd ~/PATH/HAI-main`

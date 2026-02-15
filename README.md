@@ -33,10 +33,10 @@ The system uses **RAG over 3 doctor-recommended reference books** (embedded + st
   Getting the LLM to consistently return valid JSON took iteration. Once stable, it became much easier to automate routing and display results cleanly.
 
 - **Speed and accuracy always fight each other.**  
-  Tuning retrieval depth and context length taught me how to balance latency with answer quality instead of chasing “max accuracy” at any cost.
+  Tuning retrieval depth and context length taught me how to balance latency with answer quality instead of chasing max accuracy at any cost.
 
 - **The model is only one piece of the system.**  
-  The triage logic (token vs escalation) and guardrails are what make it feel like an actual agent—not just a chat response.
+  The triage logic (token vs escalation) and guardrails are what make it feel like an actual agent not just a chat response.
 
 - **Full-stack integration changes everything.**  
   Wiring Flask + frontend made me think about user experience, edge cases, and reliability (bad inputs, empty fields, timeouts, and safe fallbacks).
